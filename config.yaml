@@ -1,0 +1,75 @@
+# Job Bidding Configuration
+
+# Job Search Criteria
+search_criteria:
+  keywords:
+    - "Python Developer"
+    - "Software Engineer"
+    - "Backend Developer"
+  
+  required_skills:
+    - "Python"
+    - "Django"
+    - "FastAPI"
+  
+  optional_skills:
+    - "Docker"
+    - "Kubernetes"
+    - "AWS"
+  
+  locations:
+    - "Remote"
+    - "New York, NY"
+    - "San Francisco, CA"
+  
+  experience_level:
+    - "Mid-Level"
+    - "Senior"
+  
+  salary_range:
+    min: 100000
+    max: 200000
+  
+  job_types:
+    - "Full-time"
+    - "Contract"
+
+# Application Settings
+application:
+  auto_apply: true
+  resume_path: "resumes/resume.pdf"
+  cover_letter_template: "templates/cover_letter.txt"
+  
+  # Custom answers for common questions
+  custom_answers:
+    work_authorization: "Yes, I am authorized to work in the US"
+    willing_to_relocate: "Yes"
+    expected_salary: "150000"
+    notice_period: "2 weeks"
+
+# Platform-specific settings
+platforms:
+  dice:
+    enabled: true
+    max_applications_per_run: 10
+    search_pages: 3
+  
+  indeed:
+    enabled: false
+    max_applications_per_run: 10
+    search_pages: 3
+
+# Scheduling
+schedule:
+  enabled: true
+  frequency: "daily"  # daily, hourly, or cron expression
+  run_time: "09:00"   # Time to run daily (24-hour format)
+
+# Safety Settings
+safety:
+  duplicate_detection: true
+  cooldown_period_hours: 24
+  max_applications_per_day: 20
+  random_delay_enabled: true
+  min_delay_seconds: 30
+  max_delay_seconds: 90

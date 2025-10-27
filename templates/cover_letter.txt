@@ -1,0 +1,22 @@
+# Example cover letter template
+# You can use placeholders that will be replaced with actual values
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the {{job_title}} position at {{company_name}}.
+
+With my background in software development and expertise in {{skills}}, I am confident that I would be a valuable addition to your team.
+
+Key highlights of my qualifications:
+- {{experience_years}} years of professional experience
+- Proficiency in {{primary_skills}}
+- Strong problem-solving and communication skills
+
+I am excited about the opportunity to contribute to {{company_name}} and would welcome the chance to discuss how my skills align with your needs.
+
+Thank you for your consideration. I look forward to speaking with you.
+
+Best regards,
+{{full_name}}
+{{email}}
+{{phone}}

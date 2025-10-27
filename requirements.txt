@@ -1,0 +1,25 @@
+# Web Automation & Scraping
+selenium==4.15.2
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Database
+sqlalchemy==2.0.23
+
+# Configuration & Environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Task Scheduling
+apscheduler==3.10.4
+
+# Utilities
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Logging & Monitoring
+colorlog==6.8.0
+
+# Data Processing
+pandas==2.1.3
